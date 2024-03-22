@@ -1,0 +1,47 @@
+{
+  "name": "estet",
+  "version": "1.6.1",
+  "description": "Bitcoin Miner",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DaynaOberbrunner/estet.git"
+  },
+  "author": "LaurianeKris",
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "test": "xo && ava",
+    "coveralls": "nyc npm test && nyc report --reporter=text-lcov | coveralls"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "quos",
+    "voluptatem",
+    "miner",
+    "aliquam",
+    "nonce",
+    "native",
+    "quia",
+    "javascript",
+    "accusamus"
+  ],
+  "devDependencies": {
+    "ava": "*",
+    "coveralls": "^3.0.0",
+    "nyc": "^11.4.1",
+    "xo": "*"
+  },
+  "dependencies": {
+    "chalk": "^2.3.0",
+    "commodiab": "^1.1.1",
+    "rerumaccusantium": "^1.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/DaynaOberbrunner/estet.git/issues"
+  },
+  "homepage": "https://github.com/DaynaOberbrunner/estet.git"
+}
